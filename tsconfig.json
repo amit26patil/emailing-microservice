@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["es2017", "DOM"],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "lib",
+    "types": ["node"]
+  },
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*"
+  ]
+}
